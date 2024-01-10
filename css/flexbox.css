@@ -93,6 +93,15 @@
   flex-flow: column wrap;
 }
 
+@media screen and (min-width: 375px) {
+  .videos__item:hover {
+    transform: none;
+    background-color: unset;
+    z-index: unset;
+    transition: unset;
+  }
+}
+
 @media screen and (min-width: 834px) {
   .cabecalho__pesquisar__item {
     display: block;
@@ -114,7 +123,7 @@
   }
 
   .videos__item:hover {
-    transform: unset;
+    transform: none;
     background-color: unset;
     z-index: unset;
     transition: unset;
