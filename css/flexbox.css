@@ -113,6 +113,13 @@
     gap: 33px;
   }
 
+  .videos__item:hover {
+    transform: unset;
+    background-color: unset;
+    z-index: unset;
+    transition: unset;
+  }
+
   .rodape__container {
     justify-content: space-between;
   }
